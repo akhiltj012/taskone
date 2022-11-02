@@ -1,0 +1,20 @@
+.sidebar_main{
+    height: 1000px;
+    width: 25%;
+    
+    padding-top: 100px;
+    background-color: rgb(130, 132, 134);
+}
+.sidebar_main div{
+    height: 70px;
+    width: auto;
+    border: solid rgb(7, 7, 7);
+    background-color: rgb(89, 178, 255);
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 25%;
+    
+}
+.sidebar_main h3{
+    cursor:grabbing;
+}

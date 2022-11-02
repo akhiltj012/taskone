@@ -1,0 +1,55 @@
+.home_main{
+    height: 1000px;
+    width:  100%;
+  
+    background-color: rgb(129, 131, 134);
+
+}
+.home_main table{
+    font-size: 30px;
+    background-color: rgb(46, 51, 51);
+    margin: 50px;
+    gap: 30px;
+}
+.home_main thead{
+    background-color: rgb(77, 74, 71);
+    font-size: 40px;
+    color: white;
+}
+.home_main tr{
+    color: white;
+    background-color:rgb(88, 93, 93);
+}
+.home_main select{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.home_main h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+.home_main table button{
+   
+    width: auto;
+    font-size: 30px;
+}
+.start{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+.start button{
+    background-color: orange;
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+}
+.start button:nth-child(1){
+background-color: rgb(19, 255, 19);
+}
+.start button:nth-child(3){
+    background-color:rgb(255, 20, 102);
+    }

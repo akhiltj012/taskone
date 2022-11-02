@@ -1,0 +1,49 @@
+.addscenario_main{
+    height: 1000px;
+    width: 75%;
+    background-color: rgba(68, 19, 32, 0.934);
+    color: aliceblue;
+    background-color: rgb(77, 79, 81);
+}
+
+.addscenario_main>div:nth-child(1){
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.addscenario_main>div:nth-child(2){
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: darkslategrey;
+}
+.addscenario_main input{
+    height: 50px;
+    width: 400px;
+    background-color: aliceblue;
+    
+}
+.addscenario_main>div:nth-child(3){
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.addscenario_main button{
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+    font-size: 40px;
+}
+.addscenario_main button:nth-child(1){
+    background-color: orange;
+}
+.addscenario_main button:nth-child(2){
+    background-color: rgb(149, 149, 148);
+}
+.addscenario_main button:nth-child(3){
+    background-color:blueviolet;
+}

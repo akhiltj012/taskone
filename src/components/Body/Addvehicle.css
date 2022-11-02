@@ -1,0 +1,56 @@
+.addvehicle_main{
+    height: 1000px;
+    width: 75%;
+    background-color: rgb(77, 79, 81);
+    color: aliceblue;
+}
+
+.addvehicle_main>div:nth-child(1){
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.addvehicle_main>div:nth-child(2){
+    height: auto;
+    width: 90%;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   row-gap: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: darkslategrey;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.addvehicle_main input{
+    height: 50px;
+    width: 400px;
+    background-color: aliceblue;
+    
+}
+.addvehicle_main>div:nth-child(3){
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.addvehicle_main button{
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+    font-size: 40px;
+}
+.addvehicle_main button:nth-child(1){
+    background-color: orange;
+}
+.addvehicle_main button:nth-child(2){
+    background-color: greenyellow;
+}
+.addvehicle_main button:nth-child(3){
+    background-color:blueviolet;
+}
+.addvehicle_main select{
+    height: 50px;
+    width: 400px;
+}

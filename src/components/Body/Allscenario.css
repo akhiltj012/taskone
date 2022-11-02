@@ -1,0 +1,52 @@
+.Allscenario_main{
+    height: 1000px;
+    width:  100%;
+    background-color: rgb(77, 79, 81);
+
+}
+.Allscenario_main table{
+    font-size: 30px;
+    background-color: rgb(92, 92, 91);
+    margin: 50px;
+    gap: 30px;
+}
+.Allscenario_main thead{
+    background-color: rgb(98, 98, 97);
+    font-size: 40px;
+}
+.Allscenario_main tr{
+    background-color:rgb(138, 141, 141);
+}
+.Allscenario_main select{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Allscenario_main h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+.Allscenario_main table button{
+   
+    width: auto;
+    font-size: 30px;
+}
+.start{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+.start button{
+    background-color: orange;
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+}
+.start button:nth-child(1){
+background-color: rgb(19, 255, 19);
+}
+.start button:nth-child(3){
+    background-color:rgb(255, 20, 102);
+    }
